@@ -1,0 +1,186 @@
+[1573467314.810][INFO]: Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442})
+[1573467314.810][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1573467315.743][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--ignore-certificate-errors", "--incognito", "--headless" ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--ignore-certificate-errors", "--incognito", "--headless" ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1573467315.744][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1573467315.744][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1573467315.744][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --headless --ignore-certificate-errors --incognito --load-extension=/tmp/.com.google.Chrome.rwdjof/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.8EIGE7 data:,
+[1573467316.570][INFO]: resolved localhost to ["127.0.0.1"]
+[1573467316.590][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "77.0.3865.90",
+      "chrome": {
+         "chromedriverVersion": "77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442})",
+         "userDataDir": "/tmp/.com.google.Chrome.8EIGE7"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:35337"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "d05872af7df1d7c49d4e0dd536dac6e6"
+}
+[1573467316.592][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] COMMAND Navigate {
+   "url": "http://eprint.iitd.ac.in/browse?type=title"
+}
+[1573467316.592][INFO]: Waiting for pending navigations...
+[1573467316.592][INFO]: Done waiting for pending navigations. Status: ok
+[1573467317.611][INFO]: Waiting for pending navigations...
+[1573467318.077][INFO]: Done waiting for pending navigations. Status: ok
+[1573467318.077][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] RESPONSE Navigate
+[1573467318.078][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[id=\"aspect_artifactbrowser_ConfigurableBrowse_field_starts_with\"]"
+}
+[1573467318.078][INFO]: Waiting for pending navigations...
+[1573467318.079][INFO]: Done waiting for pending navigations. Status: ok
+[1573467318.088][INFO]: Waiting for pending navigations...
+[1573467318.089][INFO]: Done waiting for pending navigations. Status: ok
+[1573467318.089][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9f891752-b180-49dd-9f2b-366a62730740"
+}
+[1573467318.090][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "9f891752-b180-49dd-9f2b-366a62730740",
+      "element-6066-11e4-a52e-4f735466cecf": "9f891752-b180-49dd-9f2b-366a62730740"
+   } ],
+   "script": "arguments[0].value = 'Feature selection in high dimensions with applications in bio-informatics'"
+}
+[1573467318.090][INFO]: Waiting for pending navigations...
+[1573467318.091][INFO]: Done waiting for pending navigations. Status: ok
+[1573467318.093][INFO]: Waiting for pending navigations...
+[1573467318.095][INFO]: Done waiting for pending navigations. Status: ok
+[1573467318.095][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] RESPONSE ExecuteScript null
+[1573467328.107][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[id=\"aspect_artifactbrowser_ConfigurableBrowse_field_submit\"]"
+}
+[1573467328.107][INFO]: Waiting for pending navigations...
+[1573467328.109][INFO]: Done waiting for pending navigations. Status: ok
+[1573467328.123][INFO]: Waiting for pending navigations...
+[1573467328.124][INFO]: Done waiting for pending navigations. Status: ok
+[1573467328.124][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "bb434574-030f-4f80-a26f-f170eb536115"
+}
+[1573467328.126][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "bb434574-030f-4f80-a26f-f170eb536115",
+      "element-6066-11e4-a52e-4f735466cecf": "bb434574-030f-4f80-a26f-f170eb536115"
+   } ],
+   "script": "arguments[0].click();"
+}
+[1573467328.126][INFO]: Waiting for pending navigations...
+[1573467328.127][INFO]: Done waiting for pending navigations. Status: ok
+[1573467328.135][INFO]: Waiting for pending navigations...
+[1573467329.233][INFO]: Done waiting for pending navigations. Status: ok
+[1573467329.233][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] RESPONSE ExecuteScript null
+[1573467329.234][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] COMMAND GetSource {
+
+}
+[1573467329.234][INFO]: Waiting for pending navigations...
+[1573467329.235][INFO]: Done waiting for pending navigations. Status: ok
+[1573467329.241][INFO]: Waiting for pending navigations...
+[1573467329.242][INFO]: Done waiting for pending navigations. Status: ok
+[1573467329.242][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] RESPONSE GetSource "\u003Chtml class=\" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsi..."
+[1573467354.549][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] COMMAND QuitAll {
+
+}
+[1573467354.599][INFO]: [d05872af7df1d7c49d4e0dd536dac6e6] RESPONSE QuitAll

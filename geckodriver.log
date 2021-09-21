@@ -1,0 +1,204 @@
+[1568727993.303][INFO]: Starting ChromeDriver 76.0.3809.100 (ed9d447d30203dc5069e540f05079e493fc1c132-refs/branch-heads/3809@{#990})
+[1568727993.303][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1568727994.303][INFO]: [5f83c32f5879a82bf486b1dd571960ff] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--ignore-certificate-errors", "--incognito", "--headless" ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--ignore-certificate-errors", "--incognito", "--headless" ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1568727994.303][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1568727994.303][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1568727994.304][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --headless --ignore-certificate-errors --incognito --load-extension=/tmp/.org.chromium.Chromium.PNxpDS/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.Ynzgyc data:,
+[1568727994.412][WARNING]: This version of ChromeDriver has not been tested with Chrome version 77.
+[1568727994.415][INFO]: resolved localhost to ["127.0.0.1"]
+[1568727994.456][INFO]: [5f83c32f5879a82bf486b1dd571960ff] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "77.0.3865.75",
+      "chrome": {
+         "chromedriverVersion": "76.0.3809.100 (ed9d447d30203dc5069e540f05079e493fc1c132-refs/branch-heads/3809@{#990})",
+         "userDataDir": "/tmp/.org.chromium.Chromium.Ynzgyc"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:37771"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "5f83c32f5879a82bf486b1dd571960ff"
+}
+[1568727994.458][INFO]: [5f83c32f5879a82bf486b1dd571960ff] COMMAND Navigate {
+   "url": "http://www.iitkgp.ac.in/department/CS/faculty/cs-7a4978b6cad58cf7afe9351596787f0c#resp-tab4"
+}
+[1568727994.458][INFO]: Waiting for pending navigations...
+[1568727994.458][INFO]: Done waiting for pending navigations. Status: ok
+[1568727995.111][INFO]: Waiting for pending navigations...
+[1568727995.613][INFO]: Done waiting for pending navigations. Status: ok
+[1568727995.613][INFO]: [5f83c32f5879a82bf486b1dd571960ff] RESPONSE Navigate
+[1568727995.614][INFO]: [5f83c32f5879a82bf486b1dd571960ff] COMMAND FindElements {
+   "using": "css selector",
+   "value": "button.btn.btn-primary.btn-xs"
+}
+[1568727995.614][INFO]: Waiting for pending navigations...
+[1568727995.622][INFO]: Done waiting for pending navigations. Status: ok
+[1568727995.630][INFO]: Waiting for pending navigations...
+[1568727995.631][INFO]: Done waiting for pending navigations. Status: ok
+[1568727995.631][INFO]: [5f83c32f5879a82bf486b1dd571960ff] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "d6a75b77-1988-4d58-a11b-5883bc210f01"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d2749b90-1777-4cff-b043-4d245274c72f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "589781ca-ce5f-4167-bd06-afff4fbd092a"
+} ]
+[1568727995.633][INFO]: [5f83c32f5879a82bf486b1dd571960ff] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "d6a75b77-1988-4d58-a11b-5883bc210f01",
+      "element-6066-11e4-a52e-4f735466cecf": "d6a75b77-1988-4d58-a11b-5883bc210f01"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1568727995.633][INFO]: Waiting for pending navigations...
+[1568727995.634][INFO]: Done waiting for pending navigations. Status: ok
+[1568727995.641][INFO]: Waiting for pending navigations...
+[1568727995.641][INFO]: Done waiting for pending navigations. Status: ok
+[1568727995.641][INFO]: [5f83c32f5879a82bf486b1dd571960ff] RESPONSE ExecuteScript false
+[1568727995.643][INFO]: [5f83c32f5879a82bf486b1dd571960ff] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "d2749b90-1777-4cff-b043-4d245274c72f",
+      "element-6066-11e4-a52e-4f735466cecf": "d2749b90-1777-4cff-b043-4d245274c72f"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1568727995.643][INFO]: Waiting for pending navigations...
+[1568727995.644][INFO]: Done waiting for pending navigations. Status: ok
+[1568727995.651][INFO]: Waiting for pending navigations...
+[1568727995.651][INFO]: Done waiting for pending navigations. Status: ok
+[1568727995.651][INFO]: [5f83c32f5879a82bf486b1dd571960ff] RESPONSE ExecuteScript false
+[1568727995.653][INFO]: [5f83c32f5879a82bf486b1dd571960ff] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "589781ca-ce5f-4167-bd06-afff4fbd092a",
+      "element-6066-11e4-a52e-4f735466cecf": "589781ca-ce5f-4167-bd06-afff4fbd092a"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1568727995.653][INFO]: Waiting for pending navigations...
+[1568727995.654][INFO]: Done waiting for pending navigations. Status: ok
+[1568727995.662][INFO]: Waiting for pending navigations...
+[1568727995.663][INFO]: Done waiting for pending navigations. Status: ok
+[1568727995.663][INFO]: [5f83c32f5879a82bf486b1dd571960ff] RESPONSE ExecuteScript true
+[1568727995.664][INFO]: [5f83c32f5879a82bf486b1dd571960ff] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "589781ca-ce5f-4167-bd06-afff4fbd092a",
+      "element-6066-11e4-a52e-4f735466cecf": "589781ca-ce5f-4167-bd06-afff4fbd092a"
+   } ],
+   "script": "arguments[0].click();"
+}
+[1568727995.664][INFO]: Waiting for pending navigations...
+[1568727995.665][INFO]: Done waiting for pending navigations. Status: ok
+[1568727995.793][INFO]: Waiting for pending navigations...
+[1568727995.800][INFO]: Done waiting for pending navigations. Status: ok
+[1568727995.800][INFO]: [5f83c32f5879a82bf486b1dd571960ff] RESPONSE ExecuteScript null
+[1568727996.804][INFO]: [5f83c32f5879a82bf486b1dd571960ff] COMMAND GetSource {
+
+}
+[1568727996.804][INFO]: Waiting for pending navigations...
+[1568727996.805][INFO]: Done waiting for pending navigations. Status: ok
+[1568727996.828][INFO]: Waiting for pending navigations...
+[1568727996.830][INFO]: Done waiting for pending navigations. Status: ok
+[1568727996.830][INFO]: [5f83c32f5879a82bf486b1dd571960ff] RESPONSE GetSource "\u003Chtml lang=\"en\">\u003Chead>\n\n        \n\n\n\u003Cmeta charset=\"windows-1252\">\n\u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\u003Clink rel..."
+[1568727996.893][INFO]: [5f83c32f5879a82bf486b1dd571960ff] COMMAND Quit {
+
+}
+[1568727996.943][INFO]: [5f83c32f5879a82bf486b1dd571960ff] RESPONSE Quit
